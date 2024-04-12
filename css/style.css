@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: square_deal;
+    src: url(../font/CodePredators-Regular.ttf);
+}
+
+#clock {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/clockface.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hour_hand {
+    width: 10px;
+    position: relative;
+    left: 10px;
+}
+
+#min_hand {
+    width: 10px;
+}
+
+#sec_hand {
+    width: 10px;
+    position: relative;
+    left: -10px;
+
+}
+
+
+#display_watch {
+    width: 220px;
+    height: 60px;
+    margin: auto;
+    margin-top: 40px;
+    border: 3px solid rgb(9, 162, 9);
+    border-radius: 10px;
+    display: flex;
+}
+
+#hour_div {
+    width: 70.92px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(9, 162, 9);
+    font-family: square_deal;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+#min_div {
+    width: 65.92px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: rgb(9, 162, 9);
+    font-family: square_deal;
+}
+
+#sec_div {
+    width: 70.92px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(9, 162, 9);
+    font-family: square_deal;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.dots {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    color: rgb(9, 162, 9);
+}
